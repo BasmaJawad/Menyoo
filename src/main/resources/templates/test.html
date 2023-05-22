@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form action="http://localhost:8080/test" method="post" id="CreateRes">
+
+    <h5>Register Restaurant</h5>
+
+
+    <div class="form-element">
+        <label for="resname">Restaurant navn</label>
+        <input type="text" id="resname" name ="resname"placeholder="Indtast Restaurant navn">
+    </div>
+    <br>
+
+    <div class="form-element">
+        <label for="adresse">Adresse</label>
+        <input type="text" id="adresse" name="adresse" placeholder="Indtast adresse">
+    </div>
+    <br>
+
+    <div class="form-element">
+        <label for="postnummer">Post Nummer</label>
+        <input type="text" id="postnummer" name="postnummer" placeholder="Indtast postnummer">
+    </div>
+    <br>
+
+    <div class="form-element">
+        <label for="restaurantNummer">Restaurant Telefon</label>
+        <input type="text" id="restaurantNummer" name="restaurantNummer" placeholder="Indtast restaurant telefon nr ">
+    </div>
+    <br>
+
+    <div class="form-element">
+        <label for="cvrNummer">CVR nummer</label>
+        <input type="text" id="cvrNummer" name="cvrNummer" placeholder="Indtast CVR nummer ">
+    </div>
+    <br>
+
+    <div class="form-element">
+        <label for="EjerNavn"> Ejer Navn</label>
+        <input type="text" id="EjerNavn" name="EjerNavn" placeholder="Indtast ejerens Navn">
+    </div>
+    <br>
+
+    <div class="form-element">
+        <label for="EjerEmail">Ejer E-mail</label>
+        <input type="text" id="EjerEmail" name="EjerEmail" placeholder="Indtast ejer Email  ">
+    </div>
+    <br>
+
+    <div class="form-element">
+        <label for="EjerTlf">Ejer Telefon</label>
+        <input type="text" id="EjerTlf" name="EjerTlf" placeholder="Indtast Ejerens Telefon nr ">
+    </div>
+    <br>
+
+    <div class="form-element">
+        <label for="subscriptionType"></label>
+        <select name="subscriptionType" id="subscriptionType">
+            <option value="Starter">Starter</option>
+            <option value="Pro">Pro</option>
+            <option value="Elite">Elite</option>
+        </select>
+    </div>
+    <br>
+
+    <div class="form-element">
+        <button id="submitButton" class="button" type="submit" value="submit"> Gem</button>
+    </div>
+</form>
+
+</body>
+</html>
